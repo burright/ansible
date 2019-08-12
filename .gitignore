@@ -1,3 +1,8 @@
+# Do not push .retry files
 *.retry
+
+# Do not push my vault files
 passwords*
+
+# Do not push my inventory
 inventory
