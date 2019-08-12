@@ -1,0 +1,8 @@
+---
+- name: A playbook to check/restart specific win_services
+  hosts: dns
+  tasks:
+          - name: Check on NPS
+            win_service:
+                    name: nps
+            register: service_info

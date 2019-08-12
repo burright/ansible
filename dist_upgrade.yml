@@ -1,0 +1,7 @@
+---
+- name: Perform a dist upgrade for 18.04.3 LTS
+  hosts: linux-servers
+  tasks:
+    - name: Dist upgrade
+      apt:
+        upgrade: dist

@@ -1,0 +1,6 @@
+---
+- hosts: win-domain
+  gather_facts: no
+  tasks:
+          - name: Checking connection to {{ inventory_name }}
+            win_ping:
