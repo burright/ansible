@@ -2,5 +2,5 @@
 - hosts: win-domain
   gather_facts: no
   tasks:
-          - name: Checking connection to {{ inventory_name }}
+          - name: Checking connection to {{ hosts }}
             win_ping:
